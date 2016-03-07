@@ -1,0 +1,24 @@
+<ion-view title="Enter your information">
+  <ion-content>
+<form  ng-submit="attemptLogin()">
+  <div class="list">
+    <label class="item item-input item-floating-label">
+      <span class="input-label" >Email</span>
+      <input type="email" placeholder="Email" ng-model="user.email">
+    </label>
+    <label class="item item-input item-floating-label">
+      <span class="input-label" >Password</span>
+      <input type="password" placeholder="Password" ng-model="user.password">
+    </label>
+    <br />
+    <button class="button button-full button-royal" type="submit">
+      Login
+
+    </button>
+  </div>
+</form>
+</ion-content>
+</ion-view>
+
+
+

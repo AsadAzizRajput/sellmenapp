@@ -1,0 +1,39 @@
+q  <ion-content>
+    <br />
+    <br />
+    <form ng-submit="placeOrders()">
+    <div class="list">
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Client Name
+        </div>
+        <select ng-model="orders.ClientName">
+          <option>Blue</option>
+          <option selected>Green</option>
+          <option>Red</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+         Order Name
+        </div>
+        <select ng-model="orders.OrderName">
+          <option>Blue</option>
+          <option selected>Green</option>
+          <option>Red</option>
+        </select>
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Order Quantity</span>
+        <input type="text" placeholder="Order Quantity" ng-model="orders.Quantity">
+      </label>
+      <br />
+      <button class="button button-full button-royal" type="submit">
+        Place Order
+      </button>
+    </div>
+    </form>
+  </ion-content>
+
+</ion-view>
+
