@@ -1,4 +1,4 @@
 # sellmenapp
 
 
-Sellmen Application usind REST API and firebase (Real Time Database)
+Sellmen Application using  Firebase (Real Time Database) and Mongo DB.
